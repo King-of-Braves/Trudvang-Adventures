@@ -1,0 +1,32 @@
+{   
+   "name": "Trudvang",   
+   "title": "Trudvang",   
+   "description": "For 5e Trudvang Adventures",   
+   "author": "Gondorian",
+   "version": "1.0.0",
+   "minimumCoreVersion": "0.6.0",
+   "compatibleCoreVersion":"0.6.1",
+   "packs": [
+    {
+      "name": "items",
+      "label": "Items",
+      "path": "packs/items.db",
+      "entity": "Item",
+      "module": "Trudvang"
+    },
+    {
+      "name": "enemies",
+      "label": "Enemies",
+      "path": "packs/enemies.db",
+      "entity": "Actor",
+      "module": "Trudvang"
+    },
+    {
+      "name": "pcs",
+      "label": "PCs",
+      "path": "packs/pcs.db",
+      "entity": "Actor",
+      "module": "Trudvang"
+    }
+  ]
+ }
